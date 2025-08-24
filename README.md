@@ -145,7 +145,7 @@ LIMIT 5;
 <img width="1440" height="900" alt="Screen Shot 2025-08-18 at 7 29 38 PM" src="https://github.com/user-attachments/assets/d28b924a-120a-4b59-a3c5-4fc2a4f36759" />
 
 
-[![Top In Demand Skills for Data Analysts](images/top_in-demand_skills_for_data_analysts.png)](https://public.tableau.com/views/Top5MostIn-DemandSkillsforDataAnalysts/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[![Top In Demand Skills for Data Analysts](images/top_in-demand_skills_for_data_analsyts.png)](https://public.tableau.com/views/Top5MostIn-DemandSkillsforDataAnalysts/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Key Takeaway:
 
