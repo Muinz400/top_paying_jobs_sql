@@ -147,7 +147,6 @@ LIMIT 5;
 
 [![Top In Demand Skills for Data Analysts](images/top_in-demand_skills_for_data_analysts.png)](https://public.tableau.com/views/Top5MostIn-DemandSkillsforDataAnalysts/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-
 Key Takeaway:
 
   -SQL (92K postings) is the single most demanded skill.
