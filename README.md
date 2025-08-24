@@ -1,13 +1,16 @@
 Data Analyst Job Market SQL Project
 
 Overview
-This project explores the data analyst job market using SQL queries.
-The goal is to uncover insights about top-paying roles, in-demand skills, and optimal skill combinations that maximize both salary and demand.
+This project explores the data analyst job market using SQL queries and Tableau Dashboards.
+
+The goal is to uncover insights about
+-Top-paying roles
+-In-demand skills
+-Optimal skill combinations that maximize both salary and demand.
 
 By analyzing job postings, salaries, and skill requirements, this project helps aspiring data analysts (like myself) and professionals understand where to focus career development efforts.
 
 Dataset:
-
 The data used in this project comes from a job postings dataset that includes:
   -Job titles, companies, and locations
   -Salary information (annual averages)
@@ -15,10 +18,10 @@ The data used in this project comes from a job postings dataset that includes:
 
 
 Tools & Skills Used
-  -SQL (PostgreSQL)
-  -Visual Studio
-  -Data analysis for trend discovery
-  -Joins, CTEs, Aggregations to structure insights
+-SQL (PostgreSQL) → querying, joins, CTEs, aggregations
+-Visual Studio Code → SQL development environment
+-Tableau Public → visualizations and dashboards
+-GitHub → version control & project documentation
 
 Research Questions
 1. What are the top-paying Data Analyst jobs?
@@ -53,6 +56,8 @@ ORDER BY
 LIMIT 10;
 
 <img width="1440" height="900" alt="Screen Shot 2025-08-18 at 7 26 37 PM" src="https://github.com/user-attachments/assets/a00d1c66-3f7c-469b-aa77-0d1235ce2906" />
+
+[![Top Paying Data Analyst Jobs](images/top_paying_data_analyst_jobs.png)](https://public.tableau.com/views/SQLProject-TopPayingDataAnalystJobs/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Key Takeaway:
 
@@ -101,6 +106,10 @@ ORDER BY
 
 <img width="1440" height="900" alt="Screen Shot 2025-08-18 at 7 28 51 PM" src="https://github.com/user-attachments/assets/4b86c181-2586-467e-a4b5-19f7db39d0ed" />
 
+[![Top Skills Required for Data Analyst Jobs](images/top_skills_required_for_data_analysts.png)](https://public.tableau.com/views/TopSkillsRequiredfortheHighest-PayingDataAnalystsRoles/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+
+
 Key Takeaway:
 
   -Top-paying jobs require a mix of SQL, Python, R, Tableau, plus cloud & big data tools (AWS, Snowflake, Hadoop).
@@ -134,6 +143,10 @@ ORDER BY
 LIMIT 5;
 
 <img width="1440" height="900" alt="Screen Shot 2025-08-18 at 7 29 38 PM" src="https://github.com/user-attachments/assets/d28b924a-120a-4b59-a3c5-4fc2a4f36759" />
+
+
+[![Top In Demand Skills for Data Analysts](images/top_in_demand_skills_for_data_analysts.png)](https://public.tableau.com/views/Top5MostIn-DemandSkillsforDataAnalysts/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 
 Key Takeaway:
 
@@ -172,6 +185,8 @@ ORDER BY
 
 
 <img width="1440" height="900" alt="Screen Shot 2025-08-18 at 7 30 35 PM" src="https://github.com/user-attachments/assets/bd658cd7-c459-41a2-a5f0-3f02d7257a1c" />
+
+[![Highest Paying Skills by Average Salary for Data Analysts](images/highest_paying_skills_by_average_salary.png)](https://public.tableau.com/views/HighestPayingSkillsbyAverageSalary/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Key Takeaway:
 
@@ -240,34 +255,29 @@ highest_avg_salary AS (
 
 
 <img width="1440" height="900" alt="Screen Shot 2025-08-18 at 7 31 33 PM" src="https://github.com/user-attachments/assets/ca82cd7d-a8f4-44b5-b439-88af800f1b13" />
-<img width="1440" height="900" alt="Screen Shot 2025-08-18 at 7 32 13 PM" src="https://github.com/user-attachments/assets/63d3631a-0441-42e8-9ec0-72fabca2db01" />
-<img width="1440" height="900" alt="Screen Shot 2025-08-18 at 7 32 25 PM" src="https://github.com/user-attachments/assets/296fe4a5-042d-4e2c-a534-6b0347945eaf" />
+
+
+[![Optimal Skillsfor Data Analysts](images/optimal_skills_for_data_analysts.png)](https://public.tableau.com/views/OptimalSkillsforDataAnalystsHighDemandHighSalary/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 
 Key Takeaway:
 
   -SQL and Python are the strongest “optimal skills” — very high demand and strong salaries.
-  
   -NoSQL, Scala, Java bring higher salaries but less demand — great differentiators.
-  
   -Visualization tools (Tableau, Power BI) are both widely requested and solidly paid, making them must-haves.
 
 
-Summary
+Project Summary
 
-  -SQL + Python dominate both salary and demand, proving they are core must-have skills.
-  
-  -Excel, Tableau, Power BI remain essential for practical data visualization.
-  
-  -Niche tools like Solidity and Couchbase bring huge salaries but few jobs — high risk/high reward.
-  
-  -Cloud & ML skills (AWS, PyTorch, TensorFlow) push analysts into higher salary brackets.
-  
-  -Remote opportunities exist at $200K+, making flexibility a real option for analysts.
-
+-SQL + Python dominate both salary and demand, proving they are the core must-have skills for Data Analysts.
+-Excel, Tableau, Power BI remain essential for practical data visualization and day-to-day reporting.
+-Niche tools like Solidity and Couchbase bring extremely high salaries but come with very limited job availability — a high risk/high reward path.
+-Cloud & Machine Learning skills (AWS, PyTorch, TensorFlow) significantly boost salaries and open advanced analytics opportunities.
+-Remote roles exist at $200K+, showing flexibility and location independence are achievable in this field.
 
 Author
 Manyang Taal
 Marysville, WA
 manyangtaal5@gmail.com
 
-💼 Aspiring Data Analyst | Skilled in SQL, Data Visualization and Business Insights
+Data Analyst | Skilled in SQL, Data Visualization and Business Insights
