@@ -280,3 +280,4 @@ Marysville, WA
 manyangtaal5@gmail.com
 
 Data Analyst | Skilled in SQL, Data Visualization and Business Insights
+#SQL #Tableau #DataAnalytics
